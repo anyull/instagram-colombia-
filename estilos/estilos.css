@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+.cajados {
+    height: 100vh;
+    background-color: rgb(0, 68, 255);
+    border: 2px solid white;
+}
+.cajatres {
+    height: 100vh;
+    background-color: rgb(235, 48, 15);
+    border: 2px solid white;
+}
+.cajacuatro {
+    height: 100vh;
+    background-color: rgb(236, 255, 68);
+    border: 2px solid white;
+}
+.cajacinco {
+    height: 10vh;
+    background-color: rgb(65, 98, 209);
+    border: 2px solid white;
+}
+/*PARA OCULTAR CAJA AZUL*/
+@media (min-width: 100px) and (max-width: 768px) {
+    .cajados {
+        display: none;
+    }
+  }
+
+  /*PARA OCULTAR CAJA AZUL PC Y TABLET*/
+  @media (min-width: 759px) and (max-width: 5000px) {
+    .cajacinco {
+        display: none;
+    }
+  }
+  
+  /*PARA OCULTAR CAJA AZUL PC Y TABLET*/
+  @media (min-width: 100px) and (max-width: 1199px) {
+    .cajacuatro {
+        display: none;
+    }
+  }
+
+
+  
+  
+  
+
+  
+  
